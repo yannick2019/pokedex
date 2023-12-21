@@ -25,7 +25,11 @@
   display: flex;
   list-style: none;
   gap: 1rem;
-  margin: 0.6rem 0;
+  margin-bottom: 2rem;
+}
+
+.abilities {
+  margin-bottom: 1rem;
 }
 
 .type {

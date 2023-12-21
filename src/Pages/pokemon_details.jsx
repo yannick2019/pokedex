@@ -38,8 +38,8 @@ const Pokemon = () => {
           <img src={sprites.front_default} alt={name} />    
           <p>#{id}</p>
           <h2>{name}</h2>
-          <p>Abilities:</p>
-          <ul>
+          <p style={{ color: '#8e44ad' }}>Abilities:</p>
+          <ul className='abilities'>
             {abilities.map((ability, index) => (
               <li key={index}>{ability.ability.name}</li>
             ))}

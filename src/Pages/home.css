@@ -79,3 +79,38 @@ img {
   width: 100px;
   margin: -14px auto 16px auto;
 }
+
+
+@media screen and (min-width: 720px) and (max-width: 1080px){
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 719px){
+  .container {
+    width: 420px;
+    flex-direction: column;
+  }
+
+  .box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 240px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    width: 360px;
+  }
+
+  .card {
+    width: 200px;
+    height: 280px;
+  }
+}

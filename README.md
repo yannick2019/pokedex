@@ -7,6 +7,7 @@ A simple pokemon app using  React Js.
 How to make request, useEffect, how to retrieve data from external API. Here in this project we used pokemon api.
 
 ## Preview
+![screenshot](/public/screenshot.jpg)
 
 ## See it live
 Click [here]() to see the live version.

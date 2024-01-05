@@ -26,7 +26,7 @@ const Home = () => {
   useEffect(() => {
     const fetchPokemonData = async () => {
       try {
-        const promises = Array.from({ length: 40 }, (_, index) =>
+        const promises = Array.from({ length: 1025 }, (_, index) =>
           fetch(`https://pokeapi.co/api/v2/pokemon/${index + 1}/`)
           .then((response) => response.json())
         );

@@ -10,7 +10,7 @@ How to make request, useEffect, how to retrieve data from external API. Here in 
 ![screenshot](/public/screenshot.jpg)
 
 ## See it live
-Click [here]() to see the live version.
+Click [here](https://yannick2019.github.io/pokedex) to see the live version.
 
 ## Tech used
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=flat)
